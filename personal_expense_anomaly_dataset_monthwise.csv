@@ -1,0 +1,333 @@
+Transaction_ID,Date,Category,Amount,Payment_Mode,Merchant,Description
+EXP0001,2026-01-01,Bills,2579.81,Cash,Mobile Recharge,Monthly bill
+EXP0002,2026-01-01,Shopping,2661.45,UPI,Local Store,Household item
+EXP0003,2026-01-02,Health,1933.42,UPI,Medical Store,Pharmacy
+EXP0004,2026-01-03,Education,2138.62,UPI,Book Store,College expense
+EXP0005,2026-01-04,Food,146.66,Cash,Local Restaurant,Lunch
+EXP0006,2026-01-04,Other,895.36,Cash,Online Store,Online purchase
+EXP0007,2026-01-05,Bills,1534.46,Debit Card,Electricity,Utility
+EXP0008,2026-01-06,Bills,1300.98,UPI,Water Bill,Recharge
+EXP0009,2026-01-07,Food,176.63,Credit Card,Grocery Store,Lunch
+EXP0010,2026-01-07,Shopping,2082.99,Cash,Clothing Store,Electronics
+EXP0011,2026-01-08,Transport,400.51,Debit Card,Petrol Pump,Ride
+EXP0012,2026-01-09,Other,1010.8,Credit Card,Gift Shop,Miscellaneous
+EXP0013,2026-01-10,Entertainment,1320.19,UPI,Event Ticket,Event
+EXP0014,2026-01-10,Bills,3446.97,UPI,Water Bill,Electricity bill
+EXP0015,2026-01-11,Shopping,2729.51,UPI,Amazon,Personal item
+EXP0016,2026-01-12,Food,396.2,UPI,Local Restaurant,Groceries
+EXP0017,2026-01-13,Entertainment,879.53,UPI,Spotify,Game
+EXP0018,2026-01-13,Food,739.65,UPI,Local Restaurant,Breakfast
+EXP0019,2026-01-14,Bills,3989.03,UPI,Mobile Recharge,Utility
+EXP0020,2026-01-15,Entertainment,1522.72,Credit Card,Cinema,Movie
+EXP0022,2026-01-16,Transport,631.01,UPI,Petrol Pump,College travel
+EXP0021,2026-01-16,Bills,2763.03,UPI,Mobile Recharge,Electricity bill
+EXP0023,2026-01-17,Other,371.74,UPI,Online Store,Online purchase
+EXP0024,2026-01-18,Health,2285.53,UPI,Pharmacy,Pharmacy
+EXP0025,2026-01-19,Bills,320.09,Cash,Mobile Recharge,Monthly bill
+EXP0026,2026-01-19,Food,653.1,Debit Card,Grocery Store,Dinner
+EXP0027,2026-01-20,Shopping,446.1,Credit Card,Clothing Store,Online order
+EXP0028,2026-01-21,Food,631.36,Debit Card,Grocery Store,Breakfast
+EXP0029,2026-01-22,Food,89.71,UPI,Zomato,Dinner
+EXP0030,2026-01-22,Education,1815.41,Cash,Stationery Shop,Study material
+EXP0031,2026-01-23,Education,2993.85,Debit Card,Course Platform,Books
+EXP0032,2026-01-24,Other,466.78,Cash,Gift Shop,Miscellaneous
+EXP0033,2026-01-25,Transport,686.74,UPI,Bus,Fuel
+EXP0034,2026-01-25,Transport,442.93,Debit Card,Auto,College travel
+EXP0035,2026-01-26,Shopping,3251.19,UPI,Local Store,Clothes
+EXP0036,2026-01-27,Food,195.81,UPI,Swiggy,Groceries
+EXP0037,2026-01-28,Food,640.22,Cash,Swiggy,Breakfast
+EXP0038,2026-01-28,Shopping,824.06,UPI,Flipkart,Online order
+EXP0039,2026-01-29,Food,487.73,Cash,Zomato,Breakfast
+EXP0040,2026-01-30,Education,3298.02,UPI,Book Store,Books
+EXP0043,2026-01-31,Bills,796.15,UPI,Water Bill,Recharge
+EXP0042,2026-01-31,Shopping,1937.35,UPI,Electronics Shop,Household item
+EXP0041,2026-01-31,Shopping,1937.35,UPI,Electronics Shop,Household item
+EXP0044,2026-02-01,Education,1554.87,Cash,College Store,Study material
+EXP0045,2026-02-02,Transport,305.91,UPI,Auto,Local trip
+EXP0046,2026-02-03,Bills,2476.73,UPI,Electricity,Recharge
+EXP0047,2026-02-03,Bills,1848.08,UPI,Internet,Internet bill
+EXP0048,2026-02-04,Transport,413.55,Cash,Uber,Local trip
+EXP0049,2026-02-05,Transport,464.13,UPI,Ola,Fuel
+EXP0050,2026-02-06,Education,2777.27,UPI,Course Platform,Online course
+EXP0051,2026-02-06,Food,523.25,UPI,Zomato,Dinner
+EXP0052,2026-02-07,Food,605.16,Credit Card,Zomato,Groceries
+EXP0053,2026-02-08,Food,432.69,Debit Card,Local Restaurant,Snacks
+EXP0054,2026-02-09,Bills,1463.47,UPI,Electricity,Utility
+EXP0055,2026-02-09,Education,493.91,Debit Card,Book Store,Books
+EXP0056,2026-02-10,Education,288.93,UPI,Book Store,Stationery
+EXP0057,2026-02-11,Bills,940.08,Debit Card,Electricity,Recharge
+EXP0058,2026-02-12,Shopping,263.14,Debit Card,Local Store,Online order
+EXP0059,2026-02-12,Entertainment,732.84,Cash,Cafe,Movie
+EXP0060,2026-02-13,Food,148.56,Credit Card,Zomato,Dinner
+EXP0061,2026-02-14,Food,796.64,UPI,Zomato,Breakfast
+EXP0062,2026-02-14,Shopping,18500.0,Credit Card,Electronics Shop,Laptop accessory bundle
+EXP0064,2026-02-15,Shopping,2955.82,UPI,Flipkart,Clothes
+EXP0063,2026-02-15,Education,2438.06,UPI,Book Store,Study material
+EXP0065,2026-02-16,Entertainment,992.65,UPI,Gaming Store,Movie
+EXP0066,2026-02-17,Bills,3394.33,Cash,Water Bill,Utility
+EXP0067,2026-02-18,Entertainment,1526.42,UPI,Event Ticket,Event
+EXP0068,2026-02-18,Entertainment,862.02,UPI,Event Ticket,Subscription
+EXP0069,2026-02-19,Entertainment,1384.06,UPI,Cinema,Game
+EXP0070,2026-02-20,Transport,130.95,Credit Card,Uber,College travel
+EXP0071,2026-02-21,Food,93.04,UPI,Local Restaurant,Dinner
+EXP0072,2026-02-21,Shopping,2307.85,UPI,Electronics Shop,Household item
+EXP0073,2026-02-22,Food,122.25,Debit Card,Swiggy,Dinner
+EXP0074,2026-02-23,Transport,457.18,Cash,Ola,Fuel
+EXP0075,2026-02-24,Health,1930.97,UPI,Clinic,Medicine
+EXP0076,2026-02-24,Food,459.25,Debit Card,Grocery Store,Dinner
+EXP0077,2026-02-25,Food,417.1,Debit Card,Zomato,Breakfast
+EXP0078,2026-02-26,Transport,368.21,Cash,Ola,Ride
+EXP0079,2026-02-27,Transport,599.68,UPI,Uber,Office travel
+EXP0080,2026-02-27,Education,1906.8,UPI,Stationery Shop,Books
+EXP0081,2026-02-28,Entertainment,1659.47,UPI,Cafe,Cafe
+EXP0082,2026-03-01,Bills,1553.77,UPI,Internet,Monthly bill
+EXP0084,2026-03-02,Transport,430.98,UPI,Ola,College travel
+EXP0083,2026-03-02,Education,3253.37,UPI,Stationery Shop,Online course
+EXP0085,2026-03-03,Bills,2901.22,Credit Card,Electricity,Electricity bill
+EXP0086,2026-03-04,Food,519.06,Debit Card,Grocery Store,Snacks
+EXP0087,2026-03-05,Food,728.46,Credit Card,Zomato,Breakfast
+EXP0088,2026-03-05,Food,638.68,UPI,Zomato,Groceries
+EXP0089,2026-03-06,Education,2590.21,Cash,College Store,Online course
+EXP0090,2026-03-07,Shopping,3012.64,Credit Card,Local Store,Online order
+EXP0091,2026-03-08,Food,273.29,Debit Card,Grocery Store,Breakfast
+EXP0092,2026-03-08,Shopping,1689.92,UPI,Amazon,Clothes
+EXP0093,2026-03-09,Food,635.23,Credit Card,Grocery Store,Snacks
+EXP0094,2026-03-10,Education,1680.91,UPI,Course Platform,College expense
+EXP0095,2026-03-11,Shopping,3612.83,Cash,Clothing Store,Clothes
+EXP0096,2026-03-11,Transport,567.38,Debit Card,Uber,Ride
+EXP0097,2026-03-12,Transport,54.77,UPI,Auto,Office travel
+EXP0098,2026-03-13,Entertainment,285.78,Cash,Event Ticket,Cafe
+EXP0099,2026-03-14,Transport,548.39,Debit Card,Auto,Ride
+EXP0100,2026-03-14,Food,652.64,UPI,Swiggy,Lunch
+EXP0101,2026-03-15,Food,520.2,UPI,Swiggy,Groceries
+EXP0102,2026-03-16,Other,1077.8,UPI,Gift Shop,Online purchase
+EXP0104,2026-03-17,Education,908.04,UPI,Course Platform,College expense
+EXP0103,2026-03-17,Health,1063.25,Cash,Medical Store,Checkup
+EXP0105,2026-03-18,Transport,601.74,Cash,Petrol Pump,Office travel
+EXP0106,2026-03-19,Other,854.19,Debit Card,Gift Shop,Miscellaneous
+EXP0107,2026-03-20,Bills,994.1,UPI,Electricity,Monthly bill
+EXP0108,2026-03-20,Education,2539.97,Credit Card,Course Platform,College expense
+EXP0109,2026-03-21,Shopping,1474.36,UPI,Clothing Store,Household item
+EXP0110,2026-03-22,Transport,415.16,Cash,Auto,Ride
+EXP0111,2026-03-22,Food,6200.0,UPI,Restaurant,Large group dinner
+EXP0113,2026-03-23,Health,1292.6,UPI,Clinic,Medicine
+EXP0112,2026-03-23,Food,500.46,Credit Card,Campus Cafe,Dinner
+EXP0114,2026-03-24,Shopping,488.82,UPI,Flipkart,Electronics
+EXP0115,2026-03-25,Food,395.43,UPI,Grocery Store,Breakfast
+EXP0116,2026-03-26,Transport,311.66,Debit Card,Petrol Pump,Ride
+EXP0117,2026-03-26,Entertainment,1019.46,Debit Card,Event Ticket,Subscription
+EXP0118,2026-03-27,Food,233.97,Credit Card,Zomato,Dinner
+EXP0119,2026-03-28,Health,1370.9,Cash,Medical Store,Pharmacy
+EXP0120,2026-03-29,Bills,2717.73,UPI,Mobile Recharge,Recharge
+EXP0121,2026-03-29,Education,1196.47,Debit Card,Book Store,Books
+EXP0122,2026-03-30,Shopping,1417.96,Debit Card,Amazon,Household item
+EXP0123,2026-03-31,Entertainment,1432.5,UPI,Cafe,Game
+EXP0125,2026-04-01,Entertainment,1634.34,UPI,Spotify,Cafe
+EXP0124,2026-04-01,Entertainment,1790.99,Debit Card,Gaming Store,Cafe
+EXP0126,2026-04-02,Food,476.01,Cash,Swiggy,Lunch
+EXP0127,2026-04-03,Shopping,4308.0,UPI,Clothing Store,Household item
+EXP0128,2026-04-04,Food,86.52,UPI,Grocery Store,Groceries
+EXP0129,2026-04-04,Shopping,376.64,UPI,Amazon,Electronics
+EXP0130,2026-04-05,Transport,334.93,UPI,Uber,Local trip
+EXP0131,2026-04-06,Food,97.71,UPI,Grocery Store,Lunch
+EXP0132,2026-04-07,Food,104.79,UPI,Grocery Store,Breakfast
+EXP0133,2026-04-07,Entertainment,613.52,UPI,Gaming Store,Subscription
+EXP0134,2026-04-08,Food,61.23,Debit Card,Swiggy,Lunch
+EXP0135,2026-04-09,Other,102.34,UPI,Gift Shop,Personal expense
+EXP0136,2026-04-10,Entertainment,666.26,Debit Card,Gaming Store,Game
+EXP0137,2026-04-10,Transport,593.61,UPI,Ola,Office travel
+EXP0138,2026-04-11,Entertainment,512.22,Cash,Event Ticket,Game
+EXP0139,2026-04-12,Food,228.91,Credit Card,Local Restaurant,Dinner
+EXP0140,2026-04-13,Other,192.28,Cash,Miscellaneous Store,Personal expense
+EXP0141,2026-04-13,Shopping,846.95,UPI,Clothing Store,Clothes
+EXP0142,2026-04-14,Bills,3699.65,UPI,Mobile Recharge,Monthly bill
+EXP0143,2026-04-15,Food,83.15,Cash,Campus Cafe,Lunch
+EXP0145,2026-04-16,Shopping,3852.57,Debit Card,Local Store,Clothes
+EXP0144,2026-04-16,Shopping,1239.05,Cash,Amazon,Household item
+EXP0146,2026-04-17,Other,1276.33,Debit Card,Miscellaneous Store,Gift
+EXP0147,2026-04-18,Entertainment,1554.34,Credit Card,Spotify,Subscription
+EXP0148,2026-04-19,Shopping,2154.17,Credit Card,Electronics Shop,Personal item
+EXP0149,2026-04-19,Transport,272.23,UPI,Bus,Ride
+EXP0150,2026-04-20,Transport,565.47,UPI,Auto,Fuel
+EXP0151,2026-04-21,Shopping,1980.31,UPI,Clothing Store,Electronics
+EXP0152,2026-04-22,Shopping,328.29,UPI,Clothing Store,Electronics
+EXP0153,2026-04-22,Food,182.46,Cash,Local Restaurant,Breakfast
+EXP0154,2026-04-23,Bills,3032.75,Debit Card,Water Bill,Recharge
+EXP0155,2026-04-24,Health,1525.19,UPI,Pharmacy,Medicine
+EXP0156,2026-04-25,Food,572.89,UPI,Campus Cafe,Lunch
+EXP0157,2026-04-25,Entertainment,1786.02,UPI,Spotify,Movie
+EXP0158,2026-04-26,Food,794.88,UPI,Zomato,Snacks
+EXP0159,2026-04-27,Education,3150.83,UPI,Book Store,College expense
+EXP0160,2026-04-28,Transport,446.6,UPI,Auto,Office travel
+EXP0161,2026-04-28,Education,2121.53,Cash,Book Store,Stationery
+EXP0162,2026-04-29,Education,2943.23,Cash,Book Store,Books
+EXP0163,2026-04-30,Bills,1155.74,UPI,Water Bill,Utility
+EXP0164,2026-05-01,Food,511.97,UPI,Campus Cafe,Snacks
+EXP0165,2026-05-01,Other,1387.48,Cash,Miscellaneous Store,Online purchase
+EXP0166,2026-05-02,Food,621.23,UPI,Local Restaurant,Groceries
+EXP0167,2026-05-03,Food,440.79,Debit Card,Grocery Store,Lunch
+EXP0168,2026-05-04,Entertainment,984.39,UPI,Gaming Store,Game
+EXP0169,2026-05-04,Transport,626.07,Cash,Bus,Office travel
+EXP0170,2026-05-05,Bills,852.68,UPI,Internet,Utility
+EXP0171,2026-05-06,Bills,1038.31,Credit Card,Water Bill,Utility
+EXP0172,2026-05-07,Transport,172.14,Debit Card,Uber,Local trip
+EXP0173,2026-05-07,Other,1768.89,UPI,Miscellaneous Store,Miscellaneous
+EXP0174,2026-05-08,Transport,526.95,Debit Card,Bus,Fuel
+EXP0175,2026-05-09,Shopping,2650.72,Credit Card,Local Store,Clothes
+EXP0177,2026-05-10,Other,488.35,UPI,Miscellaneous Store,Online purchase
+EXP0176,2026-05-10,Transport,609.93,UPI,Petrol Pump,Fuel
+EXP0178,2026-05-11,Food,784.63,Cash,Grocery Store,Dinner
+EXP0179,2026-05-11,Transport,7800.0,UPI,Petrol Pump,Unexpected long-distance travel
+EXP0180,2026-05-12,Food,716.8,UPI,Local Restaurant,Dinner
+EXP0181,2026-05-12,Food,716.8,UPI,Local Restaurant,Dinner
+EXP0182,2026-05-13,Shopping,2817.59,UPI,Local Store,Household item
+EXP0183,2026-05-13,Other,1243.37,UPI,Miscellaneous Store,Other
+EXP0184,2026-05-14,Health,572.18,UPI,Clinic,Doctor visit
+EXP0185,2026-05-15,Education,545.77,Cash,Course Platform,Books
+EXP0187,2026-05-16,Health,337.42,Debit Card,Clinic,Pharmacy
+EXP0186,2026-05-16,Health,914.75,UPI,Pharmacy,Checkup
+EXP0188,2026-05-17,Shopping,1395.89,UPI,Local Store,Electronics
+EXP0189,2026-05-18,Transport,379.75,UPI,Auto,Local trip
+EXP0190,2026-05-19,Bills,467.14,Credit Card,Mobile Recharge,Internet bill
+EXP0191,2026-05-19,Education,2318.57,UPI,Stationery Shop,Online course
+EXP0192,2026-05-20,Transport,199.13,Debit Card,Auto,Office travel
+EXP0193,2026-05-21,Food,708.77,Credit Card,Local Restaurant,Groceries
+EXP0194,2026-05-22,Education,3440.05,UPI,Course Platform,College expense
+EXP0195,2026-05-22,Transport,122.32,Cash,Petrol Pump,Office travel
+EXP0196,2026-05-23,Other,284.26,Cash,Online Store,Other
+EXP0197,2026-05-24,Food,461.35,UPI,Zomato,Lunch
+EXP0198,2026-05-25,Food,178.63,Cash,Campus Cafe,Groceries
+EXP0199,2026-05-25,Bills,3019.98,UPI,Electricity,Recharge
+EXP0200,2026-05-26,Food,359.59,Debit Card,Campus Cafe,Breakfast
+EXP0201,2026-05-27,Food,213.04,UPI,Local Restaurant,Groceries
+EXP0202,2026-05-28,Entertainment,1623.41,UPI,Cafe,Movie
+EXP0203,2026-05-28,Health,2131.55,UPI,Clinic,Medicine
+EXP0204,2026-05-29,Food,392.9,Cash,Campus Cafe,Dinner
+EXP0205,2026-05-30,Transport,600.39,UPI,Ola,Ride
+EXP0207,2026-05-31,Other,406.38,Debit Card,Gift Shop,Other
+EXP0206,2026-05-31,Bills,2264.15,UPI,Electricity,Recharge
+EXP0208,2026-06-01,Shopping,3542.64,UPI,Flipkart,Household item
+EXP0209,2026-06-02,Food,452.01,UPI,Swiggy,Snacks
+EXP0210,2026-06-03,Food,157.5,Credit Card,Swiggy,Lunch
+EXP0211,2026-06-03,Food,416.7,UPI,Grocery Store,Groceries
+EXP0212,2026-06-04,Food,470.27,UPI,Grocery Store,Dinner
+EXP0213,2026-06-05,Education,202.19,Credit Card,Course Platform,Books
+EXP0214,2026-06-06,Food,297.93,UPI,Grocery Store,Breakfast
+EXP0215,2026-06-06,Shopping,1921.94,UPI,Local Store,Household item
+EXP0216,2026-06-07,Education,3461.25,Debit Card,Book Store,College expense
+EXP0217,2026-06-08,Entertainment,896.89,Credit Card,Event Ticket,Movie
+EXP0218,2026-06-09,Food,312.63,UPI,Zomato,Lunch
+EXP0219,2026-06-09,Bills,3239.49,Debit Card,Electricity,Electricity bill
+EXP0220,2026-06-10,Education,2798.36,Credit Card,College Store,Stationery
+EXP0221,2026-06-11,Education,1589.16,UPI,Course Platform,Study material
+EXP0222,2026-06-12,Food,795.09,UPI,Swiggy,Dinner
+EXP0223,2026-06-12,Food,399.11,UPI,Local Restaurant,Lunch
+EXP0224,2026-06-13,Other,1301.34,Credit Card,Miscellaneous Store,Miscellaneous
+EXP0225,2026-06-14,Transport,243.83,UPI,Ola,Fuel
+EXP0227,2026-06-15,Shopping,4285.26,UPI,Local Store,Electronics
+EXP0226,2026-06-15,Transport,472.17,UPI,Bus,Local trip
+EXP0228,2026-06-16,Education,2405.52,UPI,College Store,College expense
+EXP0229,2026-06-17,Other,954.3,Debit Card,Gift Shop,Other
+EXP0230,2026-06-18,Transport,694.51,Cash,Ola,Local trip
+EXP0231,2026-06-18,Other,674.71,UPI,Miscellaneous Store,Other
+EXP0232,2026-06-18,Entertainment,6900.0,Credit Card,Event Ticket,Concert ticket
+EXP0233,2026-06-19,Food,606.5,Cash,Swiggy,Snacks
+EXP0234,2026-06-20,Entertainment,1323.63,Credit Card,Gaming Store,Game
+EXP0235,2026-06-21,Entertainment,812.81,UPI,Cinema,Cafe
+EXP0236,2026-06-21,Food,362.04,UPI,Zomato,Snacks
+EXP0237,2026-06-22,Food,127.88,Cash,Swiggy,Breakfast
+EXP0238,2026-06-23,Shopping,3050.51,UPI,Flipkart,Clothes
+EXP0239,2026-06-24,Other,475.84,Debit Card,Gift Shop,Online purchase
+EXP0240,2026-06-24,Entertainment,519.36,UPI,Event Ticket,Cafe
+EXP0241,2026-06-25,Other,622.79,UPI,Online Store,Gift
+EXP0242,2026-06-26,Bills,2796.53,UPI,Water Bill,Utility
+EXP0243,2026-06-27,Shopping,2530.94,Credit Card,Local Store,Personal item
+EXP0244,2026-06-27,Bills,2557.22,Cash,Electricity,Recharge
+EXP0245,2026-06-28,Food,297.16,UPI,Local Restaurant,Groceries
+EXP0246,2026-06-29,Food,567.22,UPI,Zomato,Lunch
+EXP0247,2026-06-30,Bills,3537.9,UPI,Water Bill,Electricity bill
+EXP0248,2026-06-30,Bills,3762.97,UPI,Water Bill,Utility
+EXP0249,2026-07-01,Food,462.97,Cash,Local Restaurant,Snacks
+EXP0250,2026-07-02,Shopping,1636.68,Credit Card,Electronics Shop,Electronics
+EXP0251,2026-07-03,Entertainment,1670.59,Credit Card,Spotify,Event
+EXP0252,2026-07-03,Health,1887.98,Debit Card,Medical Store,Pharmacy
+EXP0253,2026-07-04,Entertainment,917.03,UPI,Cafe,Game
+EXP0254,2026-07-05,Shopping,2972.72,UPI,Clothing Store,Electronics
+EXP0255,2026-07-06,Transport,422.59,UPI,Uber,Local trip
+EXP0256,2026-07-06,Shopping,3709.04,UPI,Flipkart,Online order
+EXP0257,2026-07-07,Education,125.52,Debit Card,Book Store,Stationery
+EXP0258,2026-07-08,Health,2114.02,Debit Card,Pharmacy,Medicine
+EXP0260,2026-07-09,Food,202.52,UPI,Grocery Store,Lunch
+EXP0259,2026-07-09,Shopping,697.53,Credit Card,Amazon,Electronics
+EXP0261,2026-07-10,Food,518.55,Credit Card,Grocery Store,Groceries
+EXP0262,2026-07-11,Education,336.78,Debit Card,College Store,Books
+EXP0263,2026-07-12,Bills,1301.34,Cash,Internet,Utility
+EXP0264,2026-07-12,Food,142.77,UPI,Local Restaurant,Groceries
+EXP0265,2026-07-13,Food,373.39,UPI,Zomato,Snacks
+EXP0266,2026-07-14,Entertainment,1266.48,Credit Card,Cafe,Cafe
+EXP0267,2026-07-15,Food,799.57,UPI,Campus Cafe,Snacks
+EXP0268,2026-07-15,Bills,2993.02,UPI,Mobile Recharge,Utility
+EXP0269,2026-07-16,Transport,339.01,UPI,Auto,Local trip
+EXP0270,2026-07-17,Food,557.48,Debit Card,Local Restaurant,Dinner
+EXP0271,2026-07-18,Other,1681.03,UPI,Online Store,Other
+EXP0272,2026-07-18,Food,297.94,Debit Card,Swiggy,Breakfast
+EXP0273,2026-07-19,Transport,359.14,UPI,Uber,Ride
+EXP0274,2026-07-20,Food,710.51,UPI,Grocery Store,Lunch
+EXP0275,2026-07-21,Food,455.04,UPI,Swiggy,Lunch
+EXP0276,2026-07-21,Food,60.38,Debit Card,Campus Cafe,Snacks
+EXP0277,2026-07-22,Food,85.78,Debit Card,Swiggy,Breakfast
+EXP0278,2026-07-23,Food,184.32,Debit Card,Campus Cafe,Lunch
+EXP0280,2026-07-24,Entertainment,257.69,Debit Card,Gaming Store,Subscription
+EXP0279,2026-07-24,Food,669.11,Debit Card,Zomato,Snacks
+EXP0281,2026-07-25,Education,975.34,UPI,Course Platform,Study material
+EXP0282,2026-07-26,Transport,532.68,UPI,Bus,Local trip
+EXP0283,2026-07-27,Transport,176.86,Debit Card,Bus,Office travel
+EXP0284,2026-07-27,Shopping,711.31,UPI,Clothing Store,Clothes
+EXP0285,2026-07-28,Health,520.83,UPI,Pharmacy,Checkup
+EXP0286,2026-07-29,Health,2476.93,Cash,Medical Store,Medicine
+EXP0287,2026-07-30,Food,392.06,Debit Card,Grocery Store,Dinner
+EXP0288,2026-07-30,Food,781.94,UPI,Grocery Store,Groceries
+EXP0289,2026-07-31,Food,223.39,UPI,Zomato,Breakfast
+EXP0290,2026-08-01,Food,603.7,Cash,Campus Cafe,Snacks
+EXP0291,2026-08-02,Entertainment,1508.53,UPI,Spotify,Cafe
+EXP0292,2026-08-02,Shopping,412.67,UPI,Electronics Shop,Personal item
+EXP0293,2026-08-03,Food,252.54,Debit Card,Swiggy,Snacks
+EXP0294,2026-08-04,Transport,583.83,UPI,Uber,Local trip
+EXP0295,2026-08-05,Shopping,1364.0,UPI,Amazon,Household item
+EXP0296,2026-08-05,Food,477.43,UPI,Local Restaurant,Breakfast
+EXP0297,2026-08-06,Bills,303.95,Debit Card,Mobile Recharge,Recharge
+EXP0298,2026-08-07,Food,538.26,Debit Card,Local Restaurant,Lunch
+EXP0299,2026-08-07,Education,12500.0,Debit Card,Course Platform,Certification course
+EXP0301,2026-08-08,Food,104.02,Cash,Swiggy,Dinner
+EXP0300,2026-08-08,Other,992.92,Credit Card,Online Store,Personal expense
+EXP0302,2026-08-09,Bills,1023.3,UPI,Internet,Electricity bill
+EXP0303,2026-08-10,Health,337.98,UPI,Clinic,Doctor visit
+EXP0304,2026-08-11,Other,434.66,Debit Card,Gift Shop,Gift
+EXP0305,2026-08-11,Bills,1485.47,UPI,Internet,Recharge
+EXP0306,2026-08-12,Bills,1622.27,Cash,Internet,Recharge
+EXP0307,2026-08-13,Entertainment,449.16,Credit Card,Event Ticket,Event
+EXP0308,2026-08-14,Bills,669.37,UPI,Water Bill,Monthly bill
+EXP0309,2026-08-14,Food,518.48,Debit Card,Zomato,Lunch
+EXP0310,2026-08-15,Shopping,3443.37,UPI,Amazon,Online order
+EXP0311,2026-08-16,Shopping,4485.71,UPI,Local Store,Clothes
+EXP0312,2026-08-17,Health,877.45,Cash,Clinic,Checkup
+EXP0313,2026-08-17,Shopping,3666.62,Credit Card,Electronics Shop,Clothes
+EXP0314,2026-08-18,Transport,364.09,Credit Card,Ola,Local trip
+EXP0315,2026-08-19,Entertainment,747.25,Cash,Event Ticket,Subscription
+EXP0316,2026-08-20,Transport,115.8,UPI,Bus,Office travel
+EXP0317,2026-08-20,Food,136.43,Cash,Local Restaurant,Groceries
+EXP0318,2026-08-21,Shopping,1742.29,UPI,Clothing Store,Household item
+EXP0319,2026-08-22,Shopping,2922.54,Credit Card,Flipkart,Online order
+EXP0321,2026-08-23,Transport,410.52,Cash,Uber,Local trip
+EXP0320,2026-08-23,Food,349.7,UPI,Local Restaurant,Dinner
+EXP0322,2026-08-24,Transport,401.45,UPI,Uber,Office travel
+EXP0323,2026-08-25,Transport,283.66,UPI,Ola,College travel
+EXP0324,2026-08-26,Transport,514.49,UPI,Petrol Pump,Office travel
+EXP0325,2026-08-26,Education,2013.09,UPI,College Store,Study material
+EXP0326,2026-08-27,Transport,583.95,Cash,Petrol Pump,Ride
+EXP0327,2026-08-28,Other,1371.0,Credit Card,Online Store,Gift
+EXP0328,2026-08-29,Other,845.72,Cash,Gift Shop,Other
+EXP0329,2026-08-29,Shopping,219.86,Cash,Clothing Store,Clothes
+EXP0330,2026-08-30,Transport,406.99,Debit Card,Auto,College travel
+EXP0331,2026-08-31,Shopping,3864.22,UPI,Flipkart,Household item
+EXP-20260927223029-AB42,2026-09-26,Shopping,1000.0,Cash,VR MALL,Cloth Shopping
