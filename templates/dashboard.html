@@ -1,0 +1,21 @@
+{% extends "base.html" %}{% block title %}Dashboard{% endblock %}{% block content %}
+<div class="container"><h1 class="page-title">Dashboard</h1><p class="subtitle">Personal Expense Analysis and Anomaly Detection System</p>
+<div class="cards">
+<div class="card"><h3>TOTAL SPENDING</h3><div class="value">₹{{"%.2f"|format(stats.total)}}</div></div>
+<div class="card"><h3>AVERAGE EXPENSE</h3><div class="value">₹{{"%.2f"|format(stats.average)}}</div></div>
+<div class="card"><h3>HIGHEST EXPENSE</h3><div class="value">₹{{"%.2f"|format(stats.highest)}}</div></div>
+<div class="card"><h3>MY MONEY</h3><div class="value">₹{{"%.2f"|format(money_total)}}</div></div>
+</div>
+<h2 class="page-title" style="font-size:28px;margin-top:32px">Application Modules</h2>
+<div class="modules">
+{% for icon,title,desc,link in [
+("💰","My Money","Edit Cash, UPI / Online, Bank and Other balances",url_for("money")),
+("➕","Add Expense","Add a new expense transaction",url_for("add_expense")),
+("📋","View Expenses","View, edit or delete expense records",url_for("expenses")),
+("📊","Expense Analysis","Statistics and grouped analysis",url_for("analysis")),
+("📈","Charts","Visualize spending patterns",url_for("charts")),
+("🚀","Anomaly Detection","Isolation Forest detection",url_for("anomalies")),
+("💵","Budget","Compare spending with monthly budget",url_for("budget"))] %}
+<div class="module"><div class="module-icon">{{icon}}</div><h3>{{title}}</h3><p>{{desc}}</p><a class="btn" href="{{link}}">OPEN</a></div>
+{% endfor %}
+</div></div>{% endblock %}

@@ -1,0 +1,4 @@
+{% extends "base.html" %}{% block title %}Budget{% endblock %}{% block content %}
+<div class="container"><h1 class="page-title">Budget</h1><p class="subtitle">Set and compare a monthly budget.</p>
+<div class="form-card"><form method="post"><label>Monthly Budget (₹)</label><input type="number" name="budget" min="1" step="0.01" value="{{budget}}" required><br><br><button class="btn">UPDATE BUDGET</button></form></div>
+<div class="cards" style="margin-top:20px"><div class="card"><h3>MONTH</h3><div class="value">{{latest_month}}</div></div><div class="card"><h3>BUDGET</h3><div class="value">₹{{"%.2f"|format(budget)}}</div></div><div class="card"><h3>SPENT</h3><div class="value">₹{{"%.2f"|format(spent)}}</div></div><div class="card"><h3>REMAINING</h3><div class="value">₹{{"%.2f"|format(remaining)}}</div></div></div></div>{% endblock %}

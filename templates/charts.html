@@ -1,0 +1,6 @@
+{% extends "base.html" %}{% block title %}Charts{% endblock %}{% block content %}
+<div class="container"><h1 class="page-title">Charts</h1><p class="subtitle">Visual spending analysis.</p><div class="chart-grid">
+<div class="card"><img class="chart-img" src="{{url_for('static',filename='charts/category.png')}}"></div>
+<div class="card"><img class="chart-img" src="{{url_for('static',filename='charts/monthly.png')}}"></div>
+<div class="card"><img class="chart-img" src="{{url_for('static',filename='charts/payment.png')}}"></div>
+</div></div>{% endblock %}

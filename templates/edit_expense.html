@@ -1,0 +1,11 @@
+{% extends "base.html" %}{% block title %}Edit Expense{% endblock %}{% block content %}
+<div class="container"><h1 class="page-title">Edit Expense</h1><p class="subtitle">Change any detail and save.</p>
+<div class="form-card"><form method="post"><div class="form-grid">
+<div><label>Date</label><input type="date" name="date" value="{{row.Date}}" required></div>
+<div><label>Category</label><select name="category">{% for x in categories %}<option {% if x==row.Category %}selected{% endif %}>{{x}}</option>{% endfor %}</select></div>
+<div><label>Amount (₹)</label><input type="number" name="amount" step="0.01" min="0.01" value="{{row.Amount}}" required></div>
+<div><label>Payment Method</label><select name="payment_mode">{% for x in payment_modes %}<option {% if x==row.Payment_Mode %}selected{% endif %}>{{x}}</option>{% endfor %}</select></div>
+<div><label>Merchant</label><input name="merchant" value="{{row.Merchant}}" required></div>
+<div><label>Description</label><input name="description" value="{{row.Description}}" required></div>
+<div class="full"><button class="btn">SAVE CHANGES</button></div>
+</div></form></div></div>{% endblock %}

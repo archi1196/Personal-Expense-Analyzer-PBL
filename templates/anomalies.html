@@ -1,0 +1,5 @@
+{% extends "base.html" %}{% block title %}Anomaly Detection{% endblock %}{% block content %}
+<div class="container"><h1 class="page-title">🚀 Anomaly Detection</h1><p class="subtitle"><b>BEYOND SYLLABUS — Isolation Forest</b></p>
+<div class="card"><h3>Detection Summary</h3><p>Records analyzed: <b>{{total}}</b></p><p>Anomalies detected: <b>{{anomaly_count}}</b></p></div>
+<div class="table-wrap" style="margin-top:20px"><table><thead><tr><th>Date</th><th>Category</th><th>Amount</th><th>Payment</th><th>Merchant</th><th>Description</th></tr></thead>
+<tbody>{% for row in rows %}<tr><td>{{row.Date}}</td><td>{{row.Category}}</td><td>₹{{"%.2f"|format(row.Amount)}}</td><td>{{row.Payment_Mode}}</td><td>{{row.Merchant}}</td><td>{{row.Description}}</td></tr>{% else %}<tr><td colspan="6">No anomalies detected.</td></tr>{% endfor %}</tbody></table></div></div>{% endblock %}

@@ -1,0 +1,11 @@
+{% extends "base.html" %}{% block title %}Add Expense{% endblock %}{% block content %}
+<div class="container"><h1 class="page-title">Add Expense</h1><p class="subtitle">Add a new transaction.</p>
+<div class="form-card"><form method="post"><div class="form-grid">
+<div><label>Date</label><input type="date" name="date" required></div>
+<div><label>Category</label><select name="category">{% for x in categories %}<option>{{x}}</option>{% endfor %}</select></div>
+<div><label>Amount (₹)</label><input type="number" name="amount" min="0.01" step="0.01" required></div>
+<div><label>Payment Method</label><select name="payment_mode">{% for x in payment_modes %}<option>{{x}}</option>{% endfor %}</select></div>
+<div><label>Merchant</label><input name="merchant" required></div>
+<div><label>Description</label><input name="description" required></div>
+<div class="full"><button class="btn">SAVE EXPENSE</button></div>
+</div></form></div></div>{% endblock %}

@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>{% block title %}Personal Expense Analyzer{% endblock %}</title>
+<link rel="stylesheet" href="{{ url_for('static',filename='style.css') }}"></head>
+<body>
+{% if request.endpoint != "welcome" %}
+<nav class="navbar"><a class="brand" href="{{ url_for('dashboard') }}">Personal Expense Analyzer</a>
+<div class="nav-links">
+<a href="{{ url_for('dashboard') }}">Dashboard</a><a href="{{ url_for('money') }}">💰 My Money</a>
+<a href="{{ url_for('add_expense') }}">Add Expense</a><a href="{{ url_for('expenses') }}">Expenses</a>
+<a href="{{ url_for('analysis') }}">Analysis</a><a href="{{ url_for('charts') }}">Charts</a>
+<a href="{{ url_for('anomalies') }}">Anomalies</a><a href="{{ url_for('budget') }}">Budget</a>
+</div></nav>{% endif %}
+{% with messages=get_flashed_messages(with_categories=true) %}{% if messages %}
+<div class="container">{% for category,message in messages %}<div class="alert {{category}}">{{message}}</div>{% endfor %}</div>
+{% endif %}{% endwith %}
+{% block content %}{% endblock %}
+</body></html>

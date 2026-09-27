@@ -1,0 +1,7 @@
+{% extends "base.html" %}{% block title %}Analysis{% endblock %}{% block content %}
+<div class="container"><h1 class="page-title">Expense Analysis</h1><p class="subtitle">Pandas-based analysis.</p>
+<div class="cards"><div class="card"><h3>TOTAL</h3><div class="value">₹{{"%.2f"|format(stats.total)}}</div></div><div class="card"><h3>AVERAGE</h3><div class="value">₹{{"%.2f"|format(stats.average)}}</div></div><div class="card"><h3>MINIMUM</h3><div class="value">₹{{"%.2f"|format(stats.minimum)}}</div></div><div class="card"><h3>MAXIMUM</h3><div class="value">₹{{"%.2f"|format(stats.maximum)}}</div></div></div>
+<div class="analysis-grid" style="margin-top:20px">
+<div class="list-card"><h3>Category-wise</h3>{% for k,v in category.items() %}<p><b>{{k}}</b> — ₹{{"%.2f"|format(v)}}</p>{% endfor %}</div>
+<div class="list-card"><h3>Payment Mode-wise</h3>{% for k,v in payment.items() %}<p><b>{{k}}</b> — ₹{{"%.2f"|format(v)}}</p>{% endfor %}</div>
+<div class="list-card"><h3>Monthly</h3>{% for k,v in monthly.items() %}<p><b>{{k}}</b> — ₹{{"%.2f"|format(v)}}</p>{% endfor %}</div></div></div>{% endblock %}

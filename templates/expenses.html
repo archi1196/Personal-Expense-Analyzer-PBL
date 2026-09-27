@@ -1,0 +1,7 @@
+{% extends "base.html" %}{% block title %}Expenses{% endblock %}{% block content %}
+<div class="container"><h1 class="page-title">View Expenses</h1><p class="subtitle">You can edit or delete any record.</p>
+<div class="table-wrap"><table><thead><tr><th>ID</th><th>Date</th><th>Category</th><th>Amount</th><th>Payment</th><th>Merchant</th><th>Description</th><th>Actions</th></tr></thead>
+<tbody>{% for row in rows %}<tr><td>{{row.Transaction_ID}}</td><td>{{row.Date.strftime("%Y-%m-%d")}}</td><td>{{row.Category}}</td><td>₹{{"%.2f"|format(row.Amount)}}</td><td>{{row.Payment_Mode}}</td><td>{{row.Merchant}}</td><td>{{row.Description}}</td><td>
+<a class="btn btn-small" href="{{url_for('edit_expense',transaction_id=row.Transaction_ID)}}">EDIT</a>
+<form method="post" action="{{url_for('delete_expense',transaction_id=row.Transaction_ID)}}" style="display:inline" onsubmit="return confirm('Delete this expense?');"><button class="btn btn-danger btn-small">DELETE</button></form>
+</td></tr>{% endfor %}</tbody></table></div></div>{% endblock %}

@@ -1,0 +1,13 @@
+{% extends "base.html" %}{% block title %}My Money{% endblock %}{% block content %}
+<div class="container"><h1 class="page-title">💰 My Money</h1>
+<p class="subtitle">Edit how much money you currently have in each payment account. These amounts are separate from the expense dataset.</p>
+<form method="post">
+<div class="money-grid">
+<div class="money-card"><div class="money-icon">💵</div><h2>Cash</h2><div class="money-amount">₹{{"%.2f"|format(values["Cash"])}}</div><label>Cash Amount</label><input type="number" name="cash" step="0.01" min="0" value="{{values['Cash']}}"></div>
+<div class="money-card"><div class="money-icon">📱</div><h2>UPI / Online</h2><div class="money-amount">₹{{"%.2f"|format(values["UPI / Online"])}}</div><label>UPI / Online Amount</label><input type="number" name="upi" step="0.01" min="0" value="{{values['UPI / Online']}}"></div>
+<div class="money-card"><div class="money-icon">🏦</div><h2>Bank</h2><div class="money-amount">₹{{"%.2f"|format(values["Bank"])}}</div><label>Bank Amount</label><input type="number" name="bank" step="0.01" min="0" value="{{values['Bank']}}"></div>
+<div class="money-card"><div class="money-icon">💳</div><h2>Other</h2><div class="money-amount">₹{{"%.2f"|format(values["Other"])}}</div><label>Other Amount</label><input type="number" name="other" step="0.01" min="0" value="{{values['Other']}}"></div>
+</div>
+<div class="card" style="margin-top:20px"><h3>TOTAL AVAILABLE MONEY</h3><div class="value">₹{{"%.2f"|format(money_total)}}</div></div>
+<br><button class="btn" type="submit">SAVE CHANGES</button>
+</form></div>{% endblock %}
